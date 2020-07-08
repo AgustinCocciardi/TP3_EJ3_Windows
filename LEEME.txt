@@ -1,0 +1,28 @@
+COMO EJECUTAR LOS PROCESOS DEL EJERCICIO 3 DEL TP DE COMO
+
+Existen 3 procesos en la carpeta:
+
+Pagos -> Lee el archivo de Pagos y envía información a Socios por memoria compartida
+Asistencia -> Lee el archivo de Asistencia y envía información a Socios por memoria compartida
+Principal -> Abre los recursos compartidos (semáforos POSIX) para los demás procesos, recibe información de los procesos Pagos y Asistencia y realiza el procesamiento correspondiente
+
+Ayuda: 
+./Pagos -Help
+./Asistencia -Help
+./Principal -Help
+
+Orden de ejecución:
+Primero ejecutar Principal en una terminal. 
+Luego ejecutar Asistencia en otra terminal.
+Por último ejecutar Pagos en otra terminal.
+
+Terminal 1:
+./Principal
+
+Terminal 2:
+./Asistencia
+
+Terminal 3:
+./Pagos
+
+Luego, el proceso Principal cerrará los recursos compartidos.

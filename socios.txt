@@ -1,0 +1,12 @@
+Juan;Lopez;11111111;Futbol;Lunes
+Ariel;Hernandez;22222222;Basquet;Viernes
+Monica;Perez;33333333;Natacion;Sabado
+Esteban;Quito;44444444;Voley;Martes
+Cindy;Nero;55555555;Futbol;Miercoles
+Elvis;Tek;66666666;Basquet;Viernes
+John;Wick;77777777;Voley;Jueves
+Tony;Stark;88888888;Natacion;Sabado
+Harry;Potter;99999999;Natacion;Sabado
+Percy;Jackson;10101010;Voley;Martes
+Peter;Parker;11001100;Basquet;Viernes
+Bilbo;Bolson;20202020;Futbol;Lunes

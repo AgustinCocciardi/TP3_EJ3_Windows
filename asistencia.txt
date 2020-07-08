@@ -1,0 +1,12 @@
+11111111;Lunes
+22222222;Sabado
+33333333;Miercoles
+44444444;Martes
+55555555;Viernes
+66666666;Domingo
+77777777;Jueves
+88888888;Sabado
+99999999;Sabado
+10101010;Lunes
+11001100;Miercoles
+20202020;Lunes
