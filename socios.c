@@ -337,8 +337,8 @@ int main(int argc, char* argv[]){
     //Detectar asociados que no pagaron cuota mensual
     printf("\nPagos de cuota mensual pendientes: \n");
     //LOGRE HACER QUE LLEGUE HASTA ACÁ
-    char *socioActual;
-    char *auxiliarFecha;
+    char socioActual[9];
+    char auxiliarFecha[11];
     int b;
     int enero, febrero, marzo, abril , mayo , junio , julio , agosto , septiembre , octubre , noviembre , diciembre ;
     //char *auxiliarAnio;
@@ -346,7 +346,8 @@ int main(int argc, char* argv[]){
     for (int i = 0; i < contador; i++)
     {
         //printf("\nLlega hasta acá 7\n");
-        socioActual=sociosClub[i].dni;
+        //Este me causa problemas . socioActual=sociosClub[i].dni;
+        strcpy(socioActual,sociosClub[i].dni);
         //strcpy(socioActual,sociosClub[i].dni);
         strcat(socioActual,"\0");
         //printf("\nLlega hasta acá 8\n");
